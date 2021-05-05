@@ -1,0 +1,54 @@
+.trendz-image {
+  height: 40px;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.list-container {
+  display: none;
+}
+.logout-icon {
+  height: 30px;
+}
+@media screen and (max-width: 768px) {
+  .small-nav-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .list-container {
+    display: block;
+    list-style: none;
+    display: flex;
+  }
+  .logout-icon {
+    display: none;
+  }
+
+  .list-item {
+    margin-right: 10px;
+  }
+  .login-btn {
+    background-color: #0b69ff;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: none;
+    align-self: flex-start;
+  }
+}
+.nav-items {
+  background-color: #e6f6ff;
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-items {
+    display: none;
+  }
+}
